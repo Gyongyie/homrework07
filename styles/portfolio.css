@@ -1,0 +1,305 @@
+:root {
+    -- link-color: red;
+    -- text-color;
+    -- text-font-family: "Roboto" sans-serif;
+}
+
+.body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+   }
+
+.global-header a 
+.global-header a:visited {
+    color: var(-- link color);
+}
+
+.active {
+    border-bottom: 5px solid rgb(230, 165, 165);
+    padding-bottom: 48px;
+    text-decoration: none;
+}
+
+.global-header li {
+    list-style-type: none;
+}
+
+.global-header {
+    color: #2E2F42;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    width: 1200px;
+    height: 72px;
+    margin-block-start: 0%;
+    border-bottom: 1px solid blue;
+
+    
+}
+
+.logo1::before {
+    content: "Web";
+    color: blue;
+    Width: 115px;
+    Height: 24px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.logo1::after {
+    content: "Studio";
+    color: black;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.global-header :hover {
+    color: chartreuse;
+    text-decoration: none;
+}
+
+.button {
+    Width: 261px;
+    Height: 24px;
+    Gap: 40px;
+    Weight: 500;
+    display: flex;
+    justify-content: center;
+    margin-block-start: 0%;
+    text-decoration: none;
+}
+
+.linkk {
+    text-decoration: none;
+}
+
+.contact1 {
+    color: black;
+    Width: 153px;
+    Height: 24px;
+    text-decoration: none;
+}
+
+.contact2 {
+    color: black;
+    Width: 151px;
+    Height: 24px;
+    text-decoration: none;
+}
+
+.button-section {
+   display: flex;
+color: var(--brand-color);
+   list-style: none;
+   justify-content: space-around;
+   padding-left: 20px;
+}
+
+.list-button {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    color: blue; 
+}
+
+.buttons {
+    align-items: center;
+    color: blue;
+    background-color: R #E7E9FC;
+color: var(--links-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    border: none;
+    padding: 6px 22px;
+}
+
+.buttons:hover,
+.buttons:focus {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1200px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+    padding-bottom: 94px;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+
+.card-app:hover,
+.card-app:focus {
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.5));
+} 
+
+.card-app:active::before {
+    background-color: rgba(0, 0, 0, 0.5);
+}   
+
+.app-name {
+    weight: 500;
+    color: #2E2F42;
+}
+
+
+.box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #bdbdbd;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #3f51b5;
+
+    transform: translatey(100%);
+    transition: transform 250ms ease-in-out;
+}
+
+.box:hover .overlay {
+    transform: translatey(0);
+}
+
+.overlay p {
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+    font-size: 18px;
+}
+
+.overlay code {
+    display: inline-block;
+    padding: 2px 4px;
+    border-radius: 2px;
+    background-color: #fff;
+    color: #2a2a2a;
+}
+
+
+
+.icons-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    margin-top: 5%;
+
+}
+
+.icon svg {
+    width: 20px;
+    height: 20px;
+
+}
+
+.icon {
+    width: 44px;
+    height: 44px;
+    
+    border-radius: 50%;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon:hover,
+.icon:focus {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+
+.footer {
+    background-color: rgb(46, 23, 3);
+    background: linear-gradient(90deg, rgba(46, 23, 3, 1) 77%, rgba(83, 54, 46, 1) 83%, rgba(23, 21, 18, 1) 94%), black;
+    color: #F4F4FD;
+    padding: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+}    
+    
+.logo2::before {
+    content: "Web";
+    color: blue;
+}
+
+.text {
+    width: 240px;
+    height: 80px;
+}
+
+.left-colum {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.right-colum {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.subscribe-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+
+}
+
+.subscribe-input {
+    background-color: transparent;
+    line-height: 2.5;
+    border-radius: 5px;
+    width: 150%;
+}
+
+.subscribe-form {
+    border:2px white;
+    padding 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.subscribe {
+    background-color: #4D5AE5;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.subscribe-btn-icon {
+    width: 24px;
+    height: 20px;
+}
+
+.column {
+padding-left: 25px;
+}
