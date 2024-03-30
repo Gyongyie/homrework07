@@ -20,55 +20,76 @@
     <div class="container">
         <div class="global-header">
             <a class="logo1" href="index.html"></a>
-            <button class="js-open-menu">
-                <i data-feather="menu" class="burger-menu"></i>
+            <button class="js-open-menu" aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
             </button>
-            <svg class="burger-menu" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
-                <line x1="3" y1="12" x2="21" y2="12"></line>
-                <line x1="3" y1="6" x2="21" y2="6"></line>
-                <line x1="3" y1="18" x2="21" y2="18"></line>
-            </svg>
-             
-            <script src="./js/mobile-menu.js"></script>
+            
+        
             <div class="js-menu-container">
                 <div>
-                    <button class="menu-toggle js-close-menu">
-                        <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
-                            <path fill-rule="evenodd"
-                                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                                clip-rule="evenodd"></path>
-                        </svg>
-                    </button>
+                    <button class="close-btn js-close-menu">&times;</button>
+                    
                     <section>
-            <nav class=" class="mobile-menu-navigation"">
-                <ul class="">
+            <nav class="mobile-menu-navigation">
+                <ul class=" lista">
                     <li>
-                        <a class="active" href="./studio.html">Studio</a>
+                        <a class="active-menu" href="./studio.html">Studio</a>
                     </li>
                     <li>
-                        <a class="linkk" href="./portfolio.html">Portfolio</a>
+                        <a class="linkk-menu" href="./portfolio.html">Portfolio</a>
             
                     </li>
                     <li>
-                        <a class="linkk" href="./contacts.html">Contacts</a>
+                        <a class="linkk-menu" href="./contacts.html">Contacts</a>
                     </li>
                 </ul>
             </nav>
+            <a class="menu-contact1" href="tel:+11(000)111-11-11">+11(000)111-11-11</a>
+            <a class="menu-contact2" href="mail:info@devstudio.com">info@devstudio.com</a>
+            <div class="icons-list-menu">
+                <div>
+                    <a href="https://www.instagram.com/" target="_blank" class="icon-menu" aria-label="instagram-link">
+                        <svg>
+                            <use href="./images/icons.svg#icon-Vector"></use>
+                        </svg>
+                    </a>
+                </div>
             
-            <a class="" href="mail:info@devstudio.com">
-                <svg>
-                    <use href="./images/icons.svg#icon-envelop"></use>
-                </svg>info@devstudio.com</a>
+                <div>
+                    <a href="https://twitter.com/?lang=hu" target="_blank" class="icon-menu" aria-label="twitter-link">
+                        <svg>
+                            <use href="./images/icons.svg#icon-twitter-1"></use>
+                        </svg>
+                    </a>
+                </div>
             
-            <a class="" href="tel:+11(000)111-11-11">
-                <svg>
-                    <use href="./images/icons.svg#icon-phone"></use>
-                </svg>+11(000)111-11-11</a>
-                    </section>
+                <div>
+                    <a href="https://www.facebook.com/" target="_blank" class="icon-menu" aria-label="facebook-link">
+                        <svg>
+                            <use href="./images/icons.svg#icon-facebook-1"></use>
+                        </svg>
+                    </a>
+                </div>
+            
+                <div>
+                    <a href="https://www.linkedin.com/" target="_blank" class="icon-menu" aria-label="linkedin-link">
+                        <svg>
+                            <use href="./images/icons.svg#icon-linkedin-1"></use>
+                        </svg>
+                    </a>
                 </div>
             </div>
+                    </section>
 
+
+                </div>
+            </div>
+                <script src="./js/mobile-menu.js"></script>
             <nav class="main-nav">
                 <ul class="button">
                     <li>
@@ -93,8 +114,9 @@
                 <svg>
                     <use href="./images/icons.svg#icon-phone"></use>
                 </svg>+11(000)111-11-11</a>
-
+                
         </div>
+       
     </div>
 
    
@@ -510,3 +532,4 @@
 </body>
 
 </html>
+

@@ -80,14 +80,88 @@
 .js-menu-container.is-open {
     display: flex;
     flex-direction: column;
-    position: fixed;
-    top: 0;
-    right: 0;
     background-color: white;
     z-index: 1;
     padding: 40px 31px;
-    height: 100%;
-};
+    height:%;
+}
+
+.js-close-menu {
+    border: none;
+    background: none;
+    align-self: self-end;
+}
+
+.mobile-menu-navigation {
+    display: flex;
+    justify-content: ;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-decoration: none; 
+    padding-bottom: 100px;
+    color: blue;
+    font-size:xx-large;
+    list-style: none;
+}
+.active-menu,
+.linkk-menu {
+    text-decoration: none;
+}
+.menu-contact1 {
+    color: blue;  
+    font-size: xx-large;
+    text-decoration: none;
+    align-items: stretch;
+
+}
+
+.menu-contact2 {
+    text-decoration: none;
+    color: black;
+
+}
+
+.icons-list-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+
+}
+
+.icon-menu svg {
+    width: 100px;
+    height: 100px;
+
+}
+
+.icon-menu {
+    width: 80px;
+    height: 80px;
+    background-color: #4D5AE5;
+    border-radius: 90%;
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: space-between;
+    align-items: ;
+}
+
+.icon-menu:hover,
+.icon-menu:focus {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+.     
+
 
 .title{
     font-weight: 700;
@@ -655,7 +729,18 @@ width: 100%;
     margin-right: 20px;
 }
 
-.burger-menu {
+.burger-menu,
+.js-menu-container,
+.js-close-menu,
+.mobile-menu-navigation,
+.lista,
+.active-menu,
+.linkk-menu,
+.menu-contact2,
+.menu-contact1,
+.icon-list-menu,
+.icon-menu,
+.icon-menu svg{
     display: none;
 }
 }
